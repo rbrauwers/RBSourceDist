@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.rb.samplelib.PrivateClass
 import com.rb.samplelib.SampleLib
 import com.rb.sourcedist.ui.theme.RBSourceDistTheme
 
@@ -18,6 +19,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         SampleLib()
+        PrivateClass()
 
         setContent {
             RBSourceDistTheme {
