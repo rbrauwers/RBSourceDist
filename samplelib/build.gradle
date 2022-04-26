@@ -68,7 +68,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.rb.samplelib'
             artifactId = 'samplelib'
-            version = "1.3"
+            version = "1.4"
 
             afterEvaluate {
                 from components.release
