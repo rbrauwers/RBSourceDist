@@ -1,6 +1,6 @@
 package com.rb.samplelib
 
-class SampleLib {
+class PrivateClass {
 
     var publicVar: Int = 0
     private var privateVar: Int = 0
